@@ -1,0 +1,24 @@
+{
+  "name": "xss-puppeteer-vulnerable-application",
+  "version": "1.0.0",
+  "description": "Node JS web application that contains an example of a stored XSS vulnerability",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Iason Tzortzis",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "path": "^0.12.7",
+    "puppeteer": "^23.4.1",
+    "sqlite3": "^5.1.7"
+  }
+}

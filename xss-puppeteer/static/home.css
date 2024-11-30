@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 100px 0; /* Vertical padding for the hero section */
+  text-align: center; /* Center text in the hero section */
+  margin-bottom: 20px; /* Space below hero section */
+}
+
+.hero h1 {
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.card-title {
+  font-size: 1.5rem; /* Title size */
+  margin-bottom: 10px; /* Space below the title */
+}
+
+.card-text {
+  font-size: 1rem; /* Description size */
+}
+
+.btn {
+  width: 100%; /* Full-width button */
+  font-size: 1rem; /* Button text size */
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075); /* Subtle shadow for cards */
+}
+body {
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,11 @@
+services:
+  app:
+    platform: linux/amd64
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=${PORT}
+      - BOT_USERNAME=${BOT_USERNAME}
+      - BOT_PASSWORD=${BOT_PASSWORD}
