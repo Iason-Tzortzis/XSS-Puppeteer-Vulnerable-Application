@@ -38,7 +38,7 @@ const flag = (function (flag_path) {
 
 // Declare database
 const db = new sqlite3.Database(
-  path.join(__dirname, "thesis-challenges-4.db"),
+  path.join(__dirname, "xss-puppeteer.db"),
   function (error) {
     if (error) {
       return console.error(error.message);
